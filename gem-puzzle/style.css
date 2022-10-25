@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+canvas{
+    display: block;
+    overflow: visible;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#gameSize{
+    width: 100px;
+    font-size: 20px;
+    margin: 30px auto;
+    display: block;
+}
+
+.counter{
+    margin: auto;
+    font-size: 20px;
+    width: fit-content;
+    position: absolute;
+    height: fit-content;
+    top: -900px; left: -300px; right: 0; bottom: 0;
+}
+
+.timer{
+    margin: auto;
+    font-size: 20px;
+    width: fit-content;
+    position: absolute;
+    height: fit-content;
+    top: -900px; left: 300px; right: 0; bottom: 0;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #c4c4c4;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover{
+    background-color: #d4d4d4;
+}
+
+form{
+    width: 320px;
+    margin:50px auto;
+    display: block;
+}
+
+.congrats{
+    max-width: 400px;
+    height: fit-content;
+    font-size: 36px;
+    top: 250px;right: 0;bottom: 0;left: 100px;
+    text-align: center;
+    margin: auto;
+}
